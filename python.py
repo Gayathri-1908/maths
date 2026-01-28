@@ -1,7 +1,6 @@
 import streamlit as st
-
 # Page config
-st.set_page_config(page_title="My Portfolio", page_icon)
+st.set_page_config(page_title="My Portfolio", page_icon="🌟")
 
 # Sidebar
 st.sidebar.title("Navigation")
@@ -36,4 +35,4 @@ elif menu == "Contact":
     msg = st.text_area("Your message")
 
     if st.button("Send"):
-        st.success("Message sent successfully ✅")
+        st.success("Message sent successfully ")
